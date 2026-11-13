@@ -1,0 +1,1417 @@
+[
+  {
+    "id": "prod_mango_001",
+    "slug": "pleated-satin-midi-dress",
+    "title": "Pleated satin midi dress",
+    "subtitle": "Editorial Collection",
+    "category": "clothing",
+    "subcategory": "dresses",
+    "tags": ["NEW NOW"],
+    "price": 129.99,
+    "currency": "USD",
+    "originalPrice": 159.99,
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=900&q=80",
+        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Champagne", "hex": "#E8D8C8", "inStock": true },
+      { "name": "Black", "hex": "#1A1A1A", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "inStock": true,
+    "rating": 4.9,
+    "reviewCount": 42,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_001",
+      "directTarget": "https://shop.mango.com/us/women/dresses-midi/pleated-satin-dress_17012345.html",
+      "partner": "Rakuten"
+    },
+    "description": "Fluid satin fabric. Pleated design. Flared hem. Concealed side zip fastening.",
+    "composition": "100% Polyester",
+    "createdAt": "2026-11-01T10:00:00Z"
+  },
+  {
+    "id": "prod_mango_002",
+    "slug": "asymmetric-draped-gown",
+    "title": "Asymmetric draped gown",
+    "subtitle": "Selection Exclusive",
+    "category": "clothing",
+    "subcategory": "dresses",
+    "tags": ["BESTSELLER"],
+    "price": 199.99,
+    "currency": "USD",
+    "originalPrice": 249.99,
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Ruby Red", "hex": "#8B1E2E", "inStock": true },
+      { "name": "Midnight", "hex": "#121927", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "inStock": true,
+    "rating": 4.8,
+    "reviewCount": 29,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_002",
+      "directTarget": "https://shop.mango.com/us/women/dresses-long/asymmetric-gown_17022346.html",
+      "partner": "Rakuten"
+    },
+    "description": "Draped fluid silhouette with asymmetric neckline and deep back vent.",
+    "composition": "96% Viscose, 4% Elastane",
+    "createdAt": "2026-11-02T11:00:00Z"
+  },
+  {
+    "id": "prod_mango_003",
+    "slug": "linen-blend-belted-midi-dress",
+    "title": "Linen blend belted midi dress",
+    "subtitle": "Committed Collection",
+    "category": "clothing",
+    "subcategory": "dresses",
+    "tags": ["NEW NOW"],
+    "price": 119.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Ecru", "hex": "#F4EBD9", "inStock": true },
+      { "name": "Terracotta", "hex": "#C26848", "inStock": true }
+    ],
+    "sizes": ["S", "M", "L"],
+    "inStock": true,
+    "rating": 4.7,
+    "reviewCount": 18,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_003",
+      "directTarget": "https://shop.mango.com/us/women/dresses-midi/linen-belted-dress_17032347.html",
+      "partner": "Rakuten"
+    },
+    "description": "Natural linen weave with tortoiseshell buckle belt and button-up front.",
+    "composition": "55% Linen, 45% Cotton",
+    "createdAt": "2026-11-03T09:30:00Z"
+  },
+  {
+    "id": "prod_mango_004",
+    "slug": "halterneck-silk-slip-dress",
+    "title": "Halterneck silk slip dress",
+    "subtitle": "Capsule Studio",
+    "category": "clothing",
+    "subcategory": "dresses",
+    "tags": ["LIMITED EDITION"],
+    "price": 179.99,
+    "currency": "USD",
+    "originalPrice": 220.00,
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Sage", "hex": "#9BAA95", "inStock": true },
+      { "name": "Dusty Rose", "hex": "#D3A9A3", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M"],
+    "inStock": true,
+    "rating": 4.9,
+    "reviewCount": 35,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_004",
+      "directTarget": "https://shop.mango.com/us/women/dresses/halterneck-silk-dress_17042348.html",
+      "partner": "Rakuten"
+    },
+    "description": "Pure Mulberry silk slip dress with delicate halter tie and bias-cut drape.",
+    "composition": "100% Silk",
+    "createdAt": "2026-11-04T14:15:00Z"
+  },
+  {
+    "id": "prod_mango_005",
+    "slug": "structured-cotton-poplin-shirt-dress",
+    "title": "Structured poplin shirt dress",
+    "subtitle": "Office Minimalist",
+    "category": "clothing",
+    "subcategory": "dresses",
+    "tags": ["BESTSELLER"],
+    "price": 99.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Crisp White", "hex": "#FFFFFF", "inStock": true },
+      { "name": "Sky Blue", "hex": "#B7CCE2", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "inStock": true,
+    "rating": 4.6,
+    "reviewCount": 54,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_005",
+      "directTarget": "https://shop.mango.com/us/women/dresses/structured-shirt-dress_17052349.html",
+      "partner": "Rakuten"
+    },
+    "description": "Crisp cotton poplin with folded cuffed sleeves and a wide self-tie sash.",
+    "composition": "100% Organic Cotton",
+    "createdAt": "2026-11-05T08:45:00Z"
+  },
+  {
+    "id": "prod_mango_006",
+    "slug": "jacquard-cut-out-evening-dress",
+    "title": "Jacquard cut-out evening dress",
+    "subtitle": "Capsule Evening",
+    "category": "clothing",
+    "subcategory": "dresses",
+    "tags": ["NEW NOW"],
+    "price": 229.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Onyx Black", "hex": "#0D0D0D", "inStock": true },
+      { "name": "Gold Thread", "hex": "#CFB53B", "inStock": true }
+    ],
+    "sizes": ["S", "M", "L"],
+    "inStock": true,
+    "rating": 5.0,
+    "reviewCount": 14,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_006",
+      "directTarget": "https://shop.mango.com/us/women/dresses/jacquard-evening-dress_17062350.html",
+      "partner": "Rakuten"
+    },
+    "description": "Rich floral jacquard motif with subtle waist cut-outs and column skirt.",
+    "composition": "78% Polyester, 22% Metallic Thread",
+    "createdAt": "2026-11-06T12:00:00Z"
+  },
+  {
+    "id": "prod_mango_007",
+    "slug": "tailored-wide-leg-jumpsuit",
+    "title": "Tailored wide-leg jumpsuit",
+    "subtitle": "Editorial Tailoring",
+    "category": "clothing",
+    "subcategory": "jumpsuits",
+    "tags": ["BESTSELLER"],
+    "price": 149.99,
+    "currency": "USD",
+    "originalPrice": 189.99,
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Jet Black", "hex": "#111111", "inStock": true },
+      { "name": "Ivory", "hex": "#FAF9F6", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "inStock": true,
+    "rating": 4.9,
+    "reviewCount": 38,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_007",
+      "directTarget": "https://shop.mango.com/us/women/jumpsuits/tailored-wide-leg-jumpsuit_17072351.html",
+      "partner": "Rakuten"
+    },
+    "description": "Architectural lapel neckline, pleated palazzo legs, and side slant pockets.",
+    "composition": "68% Polyester, 28% Viscose, 4% Elastane",
+    "createdAt": "2026-11-07T10:00:00Z"
+  },
+  {
+    "id": "prod_mango_008",
+    "slug": "belted-halterneck-satin-jumpsuit",
+    "title": "Halterneck satin jumpsuit",
+    "subtitle": "Party & Events",
+    "category": "clothing",
+    "subcategory": "jumpsuits",
+    "tags": ["NEW NOW"],
+    "price": 169.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Deep Emerald", "hex": "#09533B", "inStock": true },
+      { "name": "Copper", "hex": "#B87333", "inStock": true }
+    ],
+    "sizes": ["S", "M", "L"],
+    "inStock": true,
+    "rating": 4.8,
+    "reviewCount": 21,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_008",
+      "directTarget": "https://shop.mango.com/us/women/jumpsuits/halterneck-satin-jumpsuit_17082352.html",
+      "partner": "Rakuten"
+    },
+    "description": "Glossy liquid satin with high halter collar and open back keyhole detail.",
+    "composition": "100% Polyester",
+    "createdAt": "2026-11-08T11:20:00Z"
+  },
+  {
+    "id": "prod_mango_009",
+    "slug": "utilitarian-linen-safari-jumpsuit",
+    "title": "Linen utility safari jumpsuit",
+    "subtitle": "Daywear Selection",
+    "category": "clothing",
+    "subcategory": "jumpsuits",
+    "tags": ["BESTSELLER"],
+    "price": 139.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Khaki Sand", "hex": "#C2B280", "inStock": true },
+      { "name": "Olive", "hex": "#556B2F", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "inStock": true,
+    "rating": 4.7,
+    "reviewCount": 31,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_009",
+      "directTarget": "https://shop.mango.com/us/women/jumpsuits/linen-safari-jumpsuit_17092353.html",
+      "partner": "Rakuten"
+    },
+    "description": "Flap chest pockets, horn button front, and cropped tapered legs.",
+    "composition": "100% Linen",
+    "createdAt": "2026-11-09T09:10:00Z"
+  },
+  {
+    "id": "prod_mango_010",
+    "slug": "draped-crepe-cross-back-jumpsuit",
+    "title": "Draped crepe cross-back jumpsuit",
+    "subtitle": "Evening Collection",
+    "category": "clothing",
+    "subcategory": "jumpsuits",
+    "tags": ["LIMITED EDITION"],
+    "price": 189.99,
+    "currency": "USD",
+    "originalPrice": 229.99,
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Burgundy", "hex": "#58111A", "inStock": true },
+      { "name": "Navy", "hex": "#000080", "inStock": true }
+    ],
+    "sizes": ["S", "M", "L"],
+    "inStock": true,
+    "rating": 4.9,
+    "reviewCount": 19,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_010",
+      "directTarget": "https://shop.mango.com/us/women/jumpsuits/crepe-cross-back-jumpsuit_17102354.html",
+      "partner": "Rakuten"
+    },
+    "description": "Sophisticated cowl neckline, slim cigarette trouser, and crossed back straps.",
+    "composition": "97% Polyester, 3% Elastane",
+    "createdAt": "2026-11-10T13:40:00Z"
+  },
+  {
+    "id": "prod_mango_011",
+    "slug": "metallic-sequin-mini-slip-dress",
+    "title": "Metallic sequin mini dress",
+    "subtitle": "Party & Celebration",
+    "category": "clothing",
+    "subcategory": "party",
+    "tags": ["NEW NOW"],
+    "price": 149.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Silver Chrome", "hex": "#D8D8D8", "inStock": true },
+      { "name": "Pale Gold", "hex": "#E6CA65", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M"],
+    "inStock": true,
+    "rating": 4.8,
+    "reviewCount": 33,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_011",
+      "directTarget": "https://shop.mango.com/us/women/party/sequin-mini-dress_17112355.html",
+      "partner": "Rakuten"
+    },
+    "description": "All-over light-reflecting micro sequins with spaghetti straps and scoop back.",
+    "composition": "100% Polyester",
+    "createdAt": "2026-11-11T16:00:00Z"
+  },
+  {
+    "id": "prod_mango_012",
+    "slug": "velvet-off-shoulder-cocktail-dress",
+    "title": "Velvet off-shoulder cocktail dress",
+    "subtitle": "Midnight Collection",
+    "category": "clothing",
+    "subcategory": "party",
+    "tags": ["BESTSELLER"],
+    "price": 139.99,
+    "currency": "USD",
+    "originalPrice": 169.99,
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Midnight Blue", "hex": "#0D1B2A", "inStock": true },
+      { "name": "Wine", "hex": "#4A0E17", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "inStock": true,
+    "rating": 4.9,
+    "reviewCount": 47,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_012",
+      "directTarget": "https://shop.mango.com/us/women/party/velvet-cocktail-dress_17122356.html",
+      "partner": "Rakuten"
+    },
+    "description": "Plush stretch velvet, fold-over Bardot neckline, and body-sculpting seamlines.",
+    "composition": "92% Polyester, 8% Elastane",
+    "createdAt": "2026-11-12T17:30:00Z"
+  },
+  {
+    "id": "prod_mango_013",
+    "slug": "feather-trimmed-crepe-mini-dress",
+    "title": "Feather-trimmed crepe mini dress",
+    "subtitle": "Capsule Studio",
+    "category": "clothing",
+    "subcategory": "party",
+    "tags": ["LIMITED EDITION"],
+    "price": 249.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Alabaster", "hex": "#F2F0EB", "inStock": true },
+      { "name": "Caviar", "hex": "#1B1B1B", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M"],
+    "inStock": true,
+    "rating": 5.0,
+    "reviewCount": 26,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_013",
+      "directTarget": "https://shop.mango.com/us/women/party/feather-mini-dress_17132357.html",
+      "partner": "Rakuten"
+    },
+    "description": "Minimalist A-line shift with ethically sourced ostrich feather hemline.",
+    "composition": "100% Viscose with 100% Ostrich Feather Trim",
+    "createdAt": "2026-11-01T15:20:00Z"
+  },
+  {
+    "id": "prod_mango_014",
+    "slug": "rhinestone-fringe-slip-gown",
+    "title": "Rhinestone fringe slip gown",
+    "subtitle": "Gala Selection",
+    "category": "clothing",
+    "subcategory": "party",
+    "tags": ["NEW NOW"],
+    "price": 279.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Champagne Crystal", "hex": "#E3D5C3", "inStock": true }
+    ],
+    "sizes": ["S", "M", "L"],
+    "inStock": true,
+    "rating": 4.9,
+    "reviewCount": 18,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_014",
+      "directTarget": "https://shop.mango.com/us/women/party/rhinestone-fringe-gown_17142358.html",
+      "partner": "Rakuten"
+    },
+    "description": "Floor-sweeping satin gown finished with swinging glass rhinestone cascade.",
+    "composition": "100% Polyester",
+    "createdAt": "2026-11-02T19:00:00Z"
+  },
+  {
+    "id": "prod_mango_015",
+    "slug": "pleated-one-shoulder-chiffon-gown",
+    "title": "One-shoulder pleated chiffon gown",
+    "subtitle": "Ceremony & Gala",
+    "category": "clothing",
+    "subcategory": "wedding-guest",
+    "tags": ["BESTSELLER"],
+    "price": 219.99,
+    "currency": "USD",
+    "originalPrice": 259.99,
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Sage Mist", "hex": "#B4C4B7", "inStock": true },
+      { "name": "Blush Coral", "hex": "#F4B2A8", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "inStock": true,
+    "rating": 4.9,
+    "reviewCount": 51,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_015",
+      "directTarget": "https://shop.mango.com/us/women/wedding-guest/pleated-one-shoulder-gown_17152359.html",
+      "partner": "Rakuten"
+    },
+    "description": "Airy sunray pleats cascading from a single sculptural draped shoulder.",
+    "composition": "100% Recycled Polyester",
+    "createdAt": "2026-11-03T10:15:00Z"
+  },
+  {
+    "id": "prod_mango_016",
+    "slug": "floral-fil-coupe-maxi-dress",
+    "title": "Floral fil-coupé maxi dress",
+    "subtitle": "Ceremony Collection",
+    "category": "clothing",
+    "subcategory": "wedding-guest",
+    "tags": ["NEW NOW"],
+    "price": 239.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Golden Flora", "hex": "#E0C895", "inStock": true }
+    ],
+    "sizes": ["S", "M", "L"],
+    "inStock": true,
+    "rating": 4.8,
+    "reviewCount": 27,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_016",
+      "directTarget": "https://shop.mango.com/us/women/wedding-guest/floral-fil-coupe-dress_17162360.html",
+      "partner": "Rakuten"
+    },
+    "description": "Romantic textured fil-coupé weaving with tiered skirt and tie back sash.",
+    "composition": "85% Silk, 15% Metallic Fibres",
+    "createdAt": "2026-11-04T11:45:00Z"
+  },
+  {
+    "id": "prod_mango_017",
+    "slug": "cape-effect-crepe-column-gown",
+    "title": "Cape-effect crepe column gown",
+    "subtitle": "Haute Wedding Selection",
+    "category": "clothing",
+    "subcategory": "wedding-guest",
+    "tags": ["LIMITED EDITION"],
+    "price": 259.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Azure Blue", "hex": "#007FFF", "inStock": true },
+      { "name": "Pale Lilac", "hex": "#DCD0FF", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "inStock": true,
+    "rating": 5.0,
+    "reviewCount": 39,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_017",
+      "directTarget": "https://shop.mango.com/us/women/wedding-guest/cape-effect-gown_17172361.html",
+      "partner": "Rakuten"
+    },
+    "description": "Floor-length cape attachment framing an impeccably tailored column silhouette.",
+    "composition": "100% Polyester Crepe",
+    "createdAt": "2026-11-05T14:00:00Z"
+  },
+  {
+    "id": "prod_mango_018",
+    "slug": "tiered-ruffle-chiffon-midi-dress",
+    "title": "Tiered ruffle chiffon dress",
+    "subtitle": "Garden Wedding Edit",
+    "category": "clothing",
+    "subcategory": "wedding-guest",
+    "tags": ["BESTSELLER"],
+    "price": 159.99,
+    "currency": "USD",
+    "originalPrice": 189.99,
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Dusty Lavender", "hex": "#AC9FB1", "inStock": true },
+      { "name": "Buttercup", "hex": "#F3E5AB", "inStock": true }
+    ],
+    "sizes": ["S", "M", "L"],
+    "inStock": true,
+    "rating": 4.7,
+    "reviewCount": 44,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_018",
+      "directTarget": "https://shop.mango.com/us/women/wedding-guest/tiered-ruffle-dress_17182362.html",
+      "partner": "Rakuten"
+    },
+    "description": "Weightless tiered ruffle tiers with V-neckline and sheer flutter sleeves.",
+    "composition": "100% Recycled Polyester",
+    "createdAt": "2026-11-06T15:30:00Z"
+  },
+  {
+    "id": "prod_mango_019",
+    "slug": "wool-blend-double-breasted-blazer-dress",
+    "title": "Double-breasted blazer dress",
+    "subtitle": "Executive Tailoring",
+    "category": "clothing",
+    "subcategory": "office",
+    "tags": ["BESTSELLER"],
+    "price": 189.99,
+    "currency": "USD",
+    "originalPrice": 229.99,
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Charcoal Grey", "hex": "#36454F", "inStock": true },
+      { "name": "Pinstripe Navy", "hex": "#1B263B", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "inStock": true,
+    "rating": 4.9,
+    "reviewCount": 62,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_019",
+      "directTarget": "https://shop.mango.com/us/women/office/double-breasted-blazer-dress_17192363.html",
+      "partner": "Rakuten"
+    },
+    "description": "Sharp peaked lapels, structured shoulder padding, and tortoiseshell buttons.",
+    "composition": "60% Wool, 38% Polyester, 2% Elastane",
+    "createdAt": "2026-11-07T09:00:00Z"
+  },
+  {
+    "id": "prod_mango_020",
+    "slug": "pleated-waist-poplin-shirt-dress",
+    "title": "Pleated waist poplin dress",
+    "subtitle": "Modern Workwear",
+    "category": "clothing",
+    "subcategory": "office",
+    "tags": ["NEW NOW"],
+    "price": 109.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Classic White", "hex": "#FFFFFF", "inStock": true },
+      { "name": "Camel", "hex": "#C19A6B", "inStock": true }
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "inStock": true,
+    "rating": 4.6,
+    "reviewCount": 28,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_020",
+      "directTarget": "https://shop.mango.com/us/women/office/pleated-waist-poplin-dress_17202364.html",
+      "partner": "Rakuten"
+    },
+    "description": "Crisp cotton with knife-pleated cummerbund waist and hidden front placket.",
+    "composition": "100% Mercerized Cotton",
+    "createdAt": "2026-11-08T10:30:00Z"
+  },
+  {
+    "id": "prod_mango_021",
+    "slug": "belted-crepe-sheath-dress",
+    "title": "Belted crepe sheath dress",
+    "subtitle": "Minimalist Boardroom",
+    "category": "clothing",
+    "subcategory": "office",
+    "tags": ["BESTSELLER"],
+    "price": 129.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Deep Forest", "hex": "#1B3A2B", "inStock": true },
+      { "name": "Black", "hex": "#000000", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "inStock": true,
+    "rating": 4.8,
+    "reviewCount": 49,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_021",
+      "directTarget": "https://shop.mango.com/us/women/office/crepe-sheath-dress_17212365.html",
+      "partner": "Rakuten"
+    },
+    "description": "Clean boat neckline, elbow-length sleeves, and coordinated leather slim belt.",
+    "composition": "95% Polyester, 5% Spandex",
+    "createdAt": "2026-11-09T14:15:00Z"
+  },
+  {
+    "id": "prod_mango_022",
+    "slug": "monochrome-tweed-pinafore-dress",
+    "title": "Monochrome tweed pinafore dress",
+    "subtitle": "Heritage Modern",
+    "category": "clothing",
+    "subcategory": "office",
+    "tags": ["NEW NOW"],
+    "price": 149.99,
+    "currency": "USD",
+    "originalPrice": 179.99,
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Black/White Tweed", "hex": "#2B2D42", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M"],
+    "inStock": true,
+    "rating": 4.7,
+    "reviewCount": 23,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_022",
+      "directTarget": "https://shop.mango.com/us/women/office/monochrome-tweed-dress_17222366.html",
+      "partner": "Rakuten"
+    },
+    "description": "Tactile bouclé tweed with fringed edges and vintage-inspired gold heraldic buttons.",
+    "composition": "72% Acrylic, 24% Wool, 4% Polyamide",
+    "createdAt": "2026-11-10T11:00:00Z"
+  },
+  {
+    "id": "prod_mango_023",
+    "slug": "silk-habotai-maxi-slip-dress",
+    "title": "Silk habotai maxi slip dress",
+    "subtitle": "Editorial Long",
+    "category": "clothing",
+    "subcategory": "long",
+    "tags": ["BESTSELLER"],
+    "price": 199.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Raw Silk Ecru", "hex": "#F7F5EE", "inStock": true },
+      { "name": "Espresso", "hex": "#362B28", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "inStock": true,
+    "rating": 4.9,
+    "reviewCount": 58,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_023",
+      "directTarget": "https://shop.mango.com/us/women/long/silk-habotai-maxi-dress_17232367.html",
+      "partner": "Rakuten"
+    },
+    "description": "Fluid floor-grazing length cut on the bias to hug curves with whisper-light grace.",
+    "composition": "100% Silk Habotai",
+    "createdAt": "2026-11-11T09:40:00Z"
+  },
+  {
+    "id": "prod_mango_024",
+    "slug": "tiered-bohemian-cotton-maxi-dress",
+    "title": "Tiered bohemian cotton maxi",
+    "subtitle": "Resort Capsule",
+    "category": "clothing",
+    "subcategory": "long",
+    "tags": ["NEW NOW"],
+    "price": 139.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Ivory Lace", "hex": "#FAF0E6", "inStock": true },
+      { "name": "Sunset Rust", "hex": "#B7410E", "inStock": true }
+    ],
+    "sizes": ["S", "M", "L"],
+    "inStock": true,
+    "rating": 4.8,
+    "reviewCount": 36,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_024",
+      "directTarget": "https://shop.mango.com/us/women/long/tiered-cotton-maxi-dress_17242368.html",
+      "partner": "Rakuten"
+    },
+    "description": "Intricate ladder lace inserts connecting billowy tiered gathers down to the ankles.",
+    "composition": "100% Organic Cotton Gauze",
+    "createdAt": "2026-11-12T12:00:00Z"
+  },
+  {
+    "id": "prod_mango_025",
+    "slug": "cut-out-back-column-maxi-dress",
+    "title": "Cut-out back column maxi dress",
+    "subtitle": "Sculptural Long",
+    "category": "clothing",
+    "subcategory": "long",
+    "tags": ["LIMITED EDITION"],
+    "price": 179.99,
+    "currency": "USD",
+    "originalPrice": 210.00,
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Slate", "hex": "#708090", "inStock": true },
+      { "name": "Noir", "hex": "#1C1C1C", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M"],
+    "inStock": true,
+    "rating": 4.9,
+    "reviewCount": 24,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_025",
+      "directTarget": "https://shop.mango.com/us/women/long/cut-out-column-maxi_17252369.html",
+      "partner": "Rakuten"
+    },
+    "description": "High round neck front juxtaposed with dramatic deep lumbar oval cut-out.",
+    "composition": "95% Modal, 5% Elastane",
+    "createdAt": "2026-11-01T17:45:00Z"
+  },
+  {
+    "id": "prod_mango_026",
+    "slug": "crinkled-chiffon-cape-maxi-gown",
+    "title": "Crinkled chiffon cape maxi gown",
+    "subtitle": "Ethereal Long",
+    "category": "clothing",
+    "subcategory": "long",
+    "tags": ["BESTSELLER"],
+    "price": 269.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Olive Gold", "hex": "#B5A642", "inStock": true }
+    ],
+    "sizes": ["S", "M", "L"],
+    "inStock": true,
+    "rating": 5.0,
+    "reviewCount": 32,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_026",
+      "directTarget": "https://shop.mango.com/us/women/long/chiffon-cape-maxi-gown_17262370.html",
+      "partner": "Rakuten"
+    },
+    "description": "Delicate permanently crinkled semi-sheer chiffon with dramatic trailing hem.",
+    "composition": "100% Polyester",
+    "createdAt": "2026-11-02T13:20:00Z"
+  },
+  {
+    "id": "prod_mango_027",
+    "slug": "ribbed-jersey-midi-dress",
+    "title": "Ribbed jersey midi dress",
+    "subtitle": "Essential Midi",
+    "category": "clothing",
+    "subcategory": "midi",
+    "tags": ["BESTSELLER"],
+    "price": 89.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Oatmeal Heather", "hex": "#D6CFC7", "inStock": true },
+      { "name": "Dark Charcoal", "hex": "#282828", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "inStock": true,
+    "rating": 4.8,
+    "reviewCount": 73,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_027",
+      "directTarget": "https://shop.mango.com/us/women/midi/ribbed-jersey-midi-dress_17272371.html",
+      "partner": "Rakuten"
+    },
+    "description": "Form-fitting fine rib knit with polo collar, partial horn button placket, and side slit.",
+    "composition": "90% Lyocell, 10% Elastane",
+    "createdAt": "2026-11-03T16:00:00Z"
+  },
+  {
+    "id": "prod_mango_028",
+    "slug": "asymmetrical-hem-satin-midi-dress",
+    "title": "Asymmetric hem satin midi",
+    "subtitle": "Editorial Midi",
+    "category": "clothing",
+    "subcategory": "midi",
+    "tags": ["NEW NOW"],
+    "price": 139.99,
+    "currency": "USD",
+    "originalPrice": 169.99,
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Rust Bronze", "hex": "#8C4A2F", "inStock": true },
+      { "name": "Pearl Grey", "hex": "#E5E5E5", "inStock": true }
+    ],
+    "sizes": ["S", "M", "L"],
+    "inStock": true,
+    "rating": 4.9,
+    "reviewCount": 41,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_028",
+      "directTarget": "https://shop.mango.com/us/women/midi/asymmetric-satin-midi_17282372.html",
+      "partner": "Rakuten"
+    },
+    "description": "Diagonal handkerchief drape creating dynamic movement with each stride.",
+    "composition": "100% Acetate Satin",
+    "createdAt": "2026-11-04T18:10:00Z"
+  },
+  {
+    "id": "prod_mango_029",
+    "slug": "leather-effect-belted-midi-dress",
+    "title": "Leather-effect belted midi dress",
+    "subtitle": "Autumn Studio",
+    "category": "clothing",
+    "subcategory": "midi",
+    "tags": ["LIMITED EDITION"],
+    "price": 159.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Espresso Brown", "hex": "#4A3728", "inStock": true },
+      { "name": "Black", "hex": "#0F0F0F", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "inStock": true,
+    "rating": 4.7,
+    "reviewCount": 35,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_029",
+      "directTarget": "https://shop.mango.com/us/women/midi/leather-effect-midi-dress_17292373.html",
+      "partner": "Rakuten"
+    },
+    "description": "Supple buttery faux leather with topstitched seams and tonal tie waist belt.",
+    "composition": "100% Polyurethane with Viscose Backing",
+    "createdAt": "2026-11-05T12:00:00Z"
+  },
+  {
+    "id": "prod_mango_030",
+    "slug": "floral-printed-chiffon-wrap-midi-dress",
+    "title": "Floral printed chiffon wrap midi",
+    "subtitle": "Spring Capsule",
+    "category": "clothing",
+    "subcategory": "midi",
+    "tags": ["BESTSELLER"],
+    "price": 119.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Botanical Sage", "hex": "#879B87", "inStock": true }
+    ],
+    "sizes": ["S", "M", "L"],
+    "inStock": true,
+    "rating": 4.6,
+    "reviewCount": 52,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_030",
+      "directTarget": "https://shop.mango.com/us/women/midi/floral-chiffon-wrap-midi_17302374.html",
+      "partner": "Rakuten"
+    },
+    "description": "True wrap closure with side sash, ruffled tulip hemline, and blouson sleeves.",
+    "composition": "100% Recycled Polyester",
+    "createdAt": "2026-11-06T11:20:00Z"
+  },
+  {
+    "id": "prod_mango_031",
+    "slug": "structured-crepe-mini-shift-dress",
+    "title": "Structured crepe mini shift dress",
+    "subtitle": "Editorial Short",
+    "category": "clothing",
+    "subcategory": "short",
+    "tags": ["NEW NOW"],
+    "price": 89.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Bright Poppy", "hex": "#E34234", "inStock": true },
+      { "name": "Pure White", "hex": "#FFFFFF", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "inStock": true,
+    "rating": 4.8,
+    "reviewCount": 38,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_031",
+      "directTarget": "https://shop.mango.com/us/women/short/structured-crepe-mini-shift_17312375.html",
+      "partner": "Rakuten"
+    },
+    "description": "60s inspired boxy shift silhouette with high boat neck and welt hip pockets.",
+    "composition": "94% Polyester, 6% Elastane",
+    "createdAt": "2026-11-07T14:40:00Z"
+  },
+  {
+    "id": "prod_mango_032",
+    "slug": "linen-button-front-mini-sundress",
+    "title": "Linen button-front mini sundress",
+    "subtitle": "Summer Essential",
+    "category": "clothing",
+    "subcategory": "short",
+    "tags": ["BESTSELLER"],
+    "price": 79.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Natural Sand", "hex": "#E6D7B9", "inStock": true },
+      { "name": "Striped Blue", "hex": "#A4C2CB", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "inStock": true,
+    "rating": 4.7,
+    "reviewCount": 45,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_032",
+      "directTarget": "https://shop.mango.com/us/women/short/linen-mini-sundress_17322376.html",
+      "partner": "Rakuten"
+    },
+    "description": "Square neckline, thick fixed shoulder straps, and natural wooden buttons.",
+    "composition": "100% Washed Linen",
+    "createdAt": "2026-11-08T15:00:00Z"
+  },
+  {
+    "id": "prod_mango_033",
+    "slug": "embroidered-organza-mini-dress",
+    "title": "Embroidered organza mini dress",
+    "subtitle": "Cocktail Selection",
+    "category": "clothing",
+    "subcategory": "short",
+    "tags": ["LIMITED EDITION"],
+    "price": 169.99,
+    "currency": "USD",
+    "originalPrice": 210.00,
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Noir Sheer", "hex": "#1A1A1A", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M"],
+    "inStock": true,
+    "rating": 4.9,
+    "reviewCount": 22,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_033",
+      "directTarget": "https://shop.mango.com/us/women/short/embroidered-organza-mini_17332377.html",
+      "partner": "Rakuten"
+    },
+    "description": "Translucent organza layer embellished with ton-sur-ton silk floral embroidery.",
+    "composition": "100% Silk Organza with Cotton Lining",
+    "createdAt": "2026-11-09T17:15:00Z"
+  },
+  {
+    "id": "prod_mango_034",
+    "slug": "cashmere-blend-fine-knit-midi-dress",
+    "title": "Cashmere blend fine-knit dress",
+    "subtitle": "Winter Knitwear",
+    "category": "clothing",
+    "subcategory": "knitwear",
+    "tags": ["BESTSELLER"],
+    "price": 179.99,
+    "currency": "USD",
+    "originalPrice": 219.99,
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Camel Melange", "hex": "#B89778", "inStock": true },
+      { "name": "Heather Grey", "hex": "#9E9E9E", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "inStock": true,
+    "rating": 5.0,
+    "reviewCount": 67,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_034",
+      "directTarget": "https://shop.mango.com/us/women/knitwear/cashmere-fine-knit-dress_17342378.html",
+      "partner": "Rakuten"
+    },
+    "description": "Ultra-soft Mongolian cashmere and merino wool blend with subtle mock neckline.",
+    "composition": "30% Cashmere, 70% Extra Fine Merino Wool",
+    "createdAt": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "prod_mango_035",
+    "slug": "cable-knit-wool-midi-dress",
+    "title": "Cable-knit wool midi dress",
+    "subtitle": "Heritage Knitwear",
+    "category": "clothing",
+    "subcategory": "knitwear",
+    "tags": ["NEW NOW"],
+    "price": 149.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Cream Wool", "hex": "#FDFBF7", "inStock": true },
+      { "name": "Forest Pine", "hex": "#1E3F20", "inStock": true }
+    ],
+    "sizes": ["S", "M", "L"],
+    "inStock": true,
+    "rating": 4.8,
+    "reviewCount": 39,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_035",
+      "directTarget": "https://shop.mango.com/us/women/knitwear/cable-knit-wool-dress_17352379.html",
+      "partner": "Rakuten"
+    },
+    "description": "Traditional Aran honeycomb and cable knitting pattern with chunky ribbed collar.",
+    "composition": "100% Shetland Wool",
+    "createdAt": "2026-11-11T13:30:00Z"
+  },
+  {
+    "id": "prod_mango_036",
+    "slug": "metallic-thread-ribbed-knit-gown",
+    "title": "Metallic thread ribbed knit gown",
+    "subtitle": "Evening Knitwear",
+    "category": "clothing",
+    "subcategory": "knitwear",
+    "tags": ["LIMITED EDITION"],
+    "price": 189.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Lurex Platinum", "hex": "#E5E4E2", "inStock": true },
+      { "name": "Lurex Bronze", "hex": "#A37854", "inStock": true }
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "inStock": true,
+    "rating": 4.9,
+    "reviewCount": 31,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_036",
+      "directTarget": "https://shop.mango.com/us/women/knitwear/metallic-ribbed-knit-gown_17362380.html",
+      "partner": "Rakuten"
+    },
+    "description": "Form-skimming ribbed knit shot through with gossamer metallic lurex threading.",
+    "composition": "70% Viscose, 20% Polyester, 10% Metallic Fibres",
+    "createdAt": "2026-11-12T16:00:00Z"
+  },
+  {
+    "id": "prod_mango_037",
+    "slug": "alpaca-blend-open-back-sweater-dress",
+    "title": "Alpaca blend open-back dress",
+    "subtitle": "Studio Knitwear",
+    "category": "clothing",
+    "subcategory": "knitwear",
+    "tags": ["NEW NOW"],
+    "price": 169.99,
+    "currency": "USD",
+    "images": {
+      "primary": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=900&q=80",
+      "secondary": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=900&q=80"
+      ]
+    },
+    "colors": [
+      { "name": "Soft Taupe", "hex": "#B38B6D", "inStock": true },
+      { "name": "Vanilla", "hex": "#F3E5AB", "inStock": true }
+    ],
+    "sizes": ["S", "M", "L"],
+    "inStock": true,
+    "rating": 4.8,
+    "reviewCount": 25,
+    "retailer": {
+      "name": "MANGO",
+      "retailerId": "mango-us"
+    },
+    "affiliate": {
+      "redirectPath": "/api/v1/redirect/prod_mango_037",
+      "directTarget": "https://shop.mango.com/us/women/knitwear/alpaca-open-back-dress_17372381.html",
+      "partner": "Rakuten"
+    },
+    "description": "Brushed fluffy baby alpaca blend knit featuring an unexpected low scoop back line.",
+    "composition": "52% Baby Alpaca, 30% Polyamide, 15% Wool, 3% Elastane",
+    "createdAt": "2026-11-13T10:15:00Z"
+  }
+]
