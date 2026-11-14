@@ -297,4 +297,31 @@ test.describe('Tier 4: Editorial Affiliate Store End-to-End User Journey', () =>
     await page.reload();
     await expect(page.locator('[data-testid="wishlist-count"]')).toHaveText('1');
   });
+
+  test('Scenario 6: Admin CRM Navigation, Login & Real Database Dashboard', async ({ page }) => {
+    await page.goto('/');
+
+    // Click CRM button in header
+    const crmBtn = page.locator('[data-testid="admin-toggle"]');
+    await expect(crmBtn).toBeVisible();
+    await crmBtn.click();
+
+    // Verify Admin Login screen appears
+    await expect(page.getByText('CRM & Catalog Administration')).toBeVisible();
+
+    // Submit credentials
+    await page.locator('#adminUsernameInput').fill('admin');
+    await page.locator('#adminPasswordInput').fill('AdminPassword123!');
+    await page.getByRole('button', { name: /Sign In To CRM/i }).click();
+
+    // Verify Admin Dashboard loads with key metrics
+    await expect(page.getByText('Total Products')).toBeVisible();
+    await expect(page.getByText('Affiliate Clicks')).toBeVisible();
+    await expect(page.getByText('Active Retailers')).toBeVisible();
+    await expect(page.getByText('Whitelisted Domains')).toBeVisible();
+
+    // Return to Boutique
+    await page.getByRole('button', { name: /Storefront/i }).click();
+    await expect(page.getByLabel('MANGO Home')).toBeVisible();
+  });
 });

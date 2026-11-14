@@ -1,5 +1,7 @@
+import crypto from 'crypto';
 import { isDomainWhitelisted } from '../config/whitelist';
 import { getProductById } from './catalogService';
+import { getDb } from '../db/connection';
 
 export interface ValidationSuccess {
   valid: true;
@@ -26,7 +28,7 @@ const IPV4_REGEX = /^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]
  * 5. Userinfo / credentials rejection (@ spoofing).
  * 6. SSRF / IP / Loopback blocking (127.0.0.1, 169.254.169.254, [::1], localhost, etc.).
  * 7. Port 443 / default enforcement.
- * 8. Domain whitelist matching (exact or strict subdomain dot-boundary).
+ * 8. Domain whitelist matching (exact or strict subdomain dot-boundary) backed by SQLite.
  * 9. Parameter sanitization and safe UTM injection.
  */
 export function validateTargetUrl(rawUrl: unknown): ValidationResult {
@@ -177,7 +179,7 @@ export function validateTargetUrl(rawUrl: unknown): ValidationResult {
 
 /**
  * Resolves a redirect destination for a given product ID (Mode A).
- * Guarantees zero-trust outbound redirection by sourcing URLs directly from verified catalog data.
+ * Guarantees zero-trust outbound redirection by sourcing URLs directly from verified SQLite catalog data.
  */
 export function resolveProductRedirect(productId: string): ValidationResult {
   if (!productId || typeof productId !== 'string') {
@@ -207,4 +209,43 @@ export function resolveProductRedirect(productId: string): ValidationResult {
   }
 
   return validateTargetUrl(targetUrl);
+}
+
+export interface RecordClickOptions {
+  productId?: string | null;
+  retailerName: string;
+  destinationUrl: string;
+  clientIp: string;
+  userAgent?: string;
+  referrer?: string;
+}
+
+/**
+ * Persists every outbound affiliate click in SQLite with SHA-256 hashed IP for privacy-compliant analytics.
+ */
+export function recordAffiliateClick(options: RecordClickOptions): void {
+  try {
+    const db = getDb();
+    const id = `click_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`;
+    const salt = process.env.IP_HASH_SALT || 'salt_affiliate_crm_2026';
+    const ipHash = crypto.createHash('sha256').update(options.clientIp + salt).digest('hex').substring(0, 32);
+    const now = new Date().toISOString();
+
+    db.prepare(`
+      INSERT INTO affiliate_clicks (
+        id, product_id, retailer_name, destination_url, ip_hash, user_agent, referrer, clicked_at
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    `).run(
+      id,
+      options.productId || null,
+      options.retailerName,
+      options.destinationUrl,
+      ipHash,
+      options.userAgent || 'unknown',
+      options.referrer || 'direct',
+      now
+    );
+  } catch (err) {
+    console.error('Failed to record affiliate click:', err);
+  }
 }

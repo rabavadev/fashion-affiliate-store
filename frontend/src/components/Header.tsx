@@ -1,10 +1,11 @@
 import React from 'react';
-import { Heart, Search } from 'lucide-react';
+import { Heart, Search, ShieldCheck } from 'lucide-react';
 
 export interface HeaderProps {
   wishlistCount?: number;
   onOpenWishlist?: () => void;
   onOpenSearch?: () => void;
+  onOpenAdmin?: () => void;
   activeNav?: string;
   onSelectNav?: (nav: string) => void;
 }
@@ -13,6 +14,7 @@ export const Header: React.FC<HeaderProps> = ({
   wishlistCount = 0,
   onOpenWishlist,
   onOpenSearch,
+  onOpenAdmin,
   activeNav = 'COLLECTION',
   onSelectNav,
 }) => {
@@ -21,8 +23,8 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <header className="sticky top-0 z-40 bg-[#FAFAFA]/95 backdrop-blur-md border-b border-[#E5E5E5]">
       {/* Top Banner / Announcement */}
-      <div className="bg-[#111111] text-[#FAFAFA] text-[11px] uppercase tracking-[0.2em] text-center py-1.5 font-light">
-        Editorial Collection — Free Shipping On In-Stock Garments
+      <div className="bg-[#111111] text-[#FAFAFA] text-[11px] uppercase tracking-[0.2em] text-center py-1.5 font-light flex items-center justify-center relative px-4">
+        <span>Editorial Collection — Free Shipping On In-Stock Garments</span>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -48,6 +50,13 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="flex-1 md:flex-initial text-center">
             <a
               href="/"
+              onClick={(e) => {
+                if (window.location.pathname === '/admin' || window.location.hash === '#admin') {
+                  e.preventDefault();
+                  window.history.pushState({}, '', '/');
+                  window.dispatchEvent(new PopStateEvent('popstate'));
+                }
+              }}
               className="font-serif text-3xl sm:text-4xl tracking-[0.25em] text-[#111111] uppercase font-light inline-block select-none"
               aria-label="MANGO Home"
             >
@@ -55,8 +64,8 @@ export const Header: React.FC<HeaderProps> = ({
             </a>
           </div>
 
-          {/* Right: Actions (Search, Wishlist) */}
-          <div className="flex items-center space-x-6 justify-end">
+          {/* Right: Actions (Search, Wishlist, CRM Link) */}
+          <div className="flex items-center space-x-5 justify-end">
             <button
               type="button"
               onClick={onOpenSearch}
@@ -83,6 +92,18 @@ export const Header: React.FC<HeaderProps> = ({
                   {wishlistCount}
                 </span>
               )}
+            </button>
+
+            {/* Quick Admin CRM Portal Button */}
+            <button
+              type="button"
+              onClick={onOpenAdmin}
+              className="inline-flex items-center gap-1 text-[11px] uppercase tracking-[0.15em] text-[#767676] hover:text-[#111111] px-2.5 py-1 border border-[#CCCCCC] hover:border-[#111111] transition-colors"
+              data-testid="admin-toggle"
+              title="Admin CRM Dashboard"
+            >
+              <ShieldCheck className="w-3.5 h-3.5" />
+              <span className="hidden sm:inline">CRM</span>
             </button>
           </div>
         </div>

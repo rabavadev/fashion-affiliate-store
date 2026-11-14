@@ -34,13 +34,13 @@ export default defineConfig({
     {
       command: 'npx tsx backend/src/server.ts',
       url: 'http://localhost:4000/api/health',
-      reuseExistingServer: !process.env.CI,
+      reuseExistingServer: false,
       timeout: 30000,
     },
     {
       command: 'npm --prefix frontend run dev',
       url: 'http://localhost:5173',
-      reuseExistingServer: !process.env.CI,
+      reuseExistingServer: false,
       timeout: 30000,
     },
   ],

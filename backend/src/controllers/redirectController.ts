@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
-import { validateTargetUrl, resolveProductRedirect } from '../services/redirectService';
+import { validateTargetUrl, resolveProductRedirect, recordAffiliateClick } from '../services/redirectService';
+import { getProductById } from '../services/catalogService';
 
 /**
  * Applies mandatory anti-caching and security headers on outbound redirect responses.
@@ -14,7 +15,7 @@ function applyRedirectSecurityHeaders(res: Response): void {
 
 /**
  * Mode A: Outbound redirection by product ID.
- * Lookups the curated product and performs a safe 302 redirect.
+ * Lookups the curated product from SQLite, logs the click into affiliate_clicks, and performs a safe 302 redirect.
  */
 export function handleProductRedirect(req: Request, res: Response): void {
   const { productId } = req.params;
@@ -27,6 +28,20 @@ export function handleProductRedirect(req: Request, res: Response): void {
     });
     return;
   }
+
+  const product = getProductById(productId);
+  const clientIp = req.ip || req.socket.remoteAddress || '127.0.0.1';
+  const userAgent = (req.headers['user-agent'] as string) || 'unknown';
+  const referrer = (req.headers['referer'] as string) || (req.headers['referrer'] as string) || 'direct';
+
+  recordAffiliateClick({
+    productId,
+    retailerName: product?.retailer?.name || 'MANGO',
+    destinationUrl: result.sanitizedUrl,
+    clientIp,
+    userAgent,
+    referrer,
+  });
 
   applyRedirectSecurityHeaders(res);
   res.redirect(302, result.sanitizedUrl);
@@ -46,6 +61,34 @@ export function handleUrlRedirect(req: Request, res: Response): void {
     });
     return;
   }
+
+  let retailerName = 'External Retailer';
+  try {
+    const parsed = new URL(result.sanitizedUrl);
+    if (parsed.hostname.includes('mango')) retailerName = 'MANGO';
+    else if (parsed.hostname.includes('nordstrom')) retailerName = 'Nordstrom';
+    else if (parsed.hostname.includes('net-a-porter')) retailerName = 'NET-A-PORTER';
+    else if (parsed.hostname.includes('asos')) retailerName = 'ASOS';
+    else if (parsed.hostname.includes('farfetch')) retailerName = 'Farfetch';
+    else if (parsed.hostname.includes('revolve')) retailerName = 'Revolve';
+    else if (parsed.hostname.includes('zara')) retailerName = 'Zara';
+    else retailerName = parsed.hostname;
+  } catch {
+    // Keep fallback
+  }
+
+  const clientIp = req.ip || req.socket.remoteAddress || '127.0.0.1';
+  const userAgent = (req.headers['user-agent'] as string) || 'unknown';
+  const referrer = (req.headers['referer'] as string) || (req.headers['referrer'] as string) || 'direct';
+
+  recordAffiliateClick({
+    productId: null,
+    retailerName,
+    destinationUrl: result.sanitizedUrl,
+    clientIp,
+    userAgent,
+    referrer,
+  });
 
   applyRedirectSecurityHeaders(res);
   res.redirect(302, result.sanitizedUrl);

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { Product, GridViewMode, SubcategoryOption } from './types/product.types';
 import { WishlistProvider, useWishlist } from './context/WishlistContext';
 import { ViewProvider, useView } from './context/ViewContext';
@@ -10,12 +10,31 @@ import WishlistDrawer from './components/WishlistDrawer';
 import SearchModal from './components/SearchModal';
 import Footer from './components/Footer';
 import { fetchProducts, computeSubcategoryFacetCounts } from './services/api';
+import { checkAdminAuth, AdminUser } from './services/adminApi';
+import AdminLogin from './components/admin/AdminLogin';
+import AdminDashboard from './components/admin/AdminDashboard';
 
 export interface AppProps {
   initialProducts?: Product[];
+  initialRoute?: 'store' | 'admin';
 }
 
-const StorefrontContent: React.FC<AppProps> = ({ initialProducts }) => {
+const StorefrontContent: React.FC<AppProps> = ({ initialProducts, initialRoute }) => {
+  // Routing State
+  const [currentRoute, setCurrentRoute] = useState<'store' | 'admin'>(() => {
+    if (initialRoute) return initialRoute;
+    if (typeof window !== 'undefined') {
+      const path = window.location.pathname;
+      const hash = window.location.hash;
+      if (path.startsWith('/admin') || hash === '#admin') return 'admin';
+    }
+    return 'store';
+  });
+
+  // Admin Auth State
+  const [adminUser, setAdminUser] = useState<AdminUser | null>(null);
+
+  // Storefront Catalog State
   const [allProducts, setAllProducts] = useState<Product[]>(initialProducts || []);
   const [activeSubcategory, setActiveSubcategory] = useState<string>('all');
   const [activeNav, setActiveNav] = useState<string>('COLLECTION');
@@ -26,33 +45,66 @@ const StorefrontContent: React.FC<AppProps> = ({ initialProducts }) => {
   const { wishlist, toggleWishlist, removeFromWishlist, count: wishlistCount } = useWishlist();
   const { columns, effectiveColumns, setColumns } = useView();
 
+  // Listen for browser popstate
   useEffect(() => {
+    const handlePopState = () => {
+      const path = window.location.pathname;
+      const hash = window.location.hash;
+      if (path.startsWith('/admin') || hash === '#admin') {
+        setCurrentRoute('admin');
+      } else {
+        setCurrentRoute('store');
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
+  // Check admin session on initial mount
+  useEffect(() => {
+    let isMounted = true;
+    checkAdminAuth().then((user) => {
+      if (isMounted) {
+        setAdminUser(user);
+      }
+    });
+    return () => {
+      isMounted = false;
+    };
+  }, []);
+
+  const navigateTo = (route: 'store' | 'admin') => {
+    setCurrentRoute(route);
+    if (typeof window !== 'undefined' && window.history) {
+      const targetPath = route === 'admin' ? '/admin' : '/';
+      if (window.location.pathname !== targetPath) {
+        window.history.pushState({}, '', targetPath);
+      }
+    }
+  };
+
+  const loadCatalog = useCallback(async () => {
     if (initialProducts) {
       setAllProducts(initialProducts);
       setLoading(false);
       return;
     }
 
-    let isMounted = true;
-    const loadCatalog = async () => {
-      try {
-        setLoading(true);
-        const res = await fetchProducts({ limit: 48 });
-        if (isMounted) {
-          setAllProducts(res.data);
-        }
-      } catch {
-        // Fallback already handled inside fetchProducts
-      } finally {
-        if (isMounted) setLoading(false);
-      }
-    };
-
-    loadCatalog();
-    return () => {
-      isMounted = false;
-    };
+    try {
+      setLoading(true);
+      const res = await fetchProducts({ limit: 48 });
+      setAllProducts(res.data);
+    } catch {
+      // Fallback handled in fetchProducts
+    } finally {
+      setLoading(false);
+    }
   }, [initialProducts]);
+
+  useEffect(() => {
+    loadCatalog();
+  }, [loadCatalog]);
 
   // Compute facet counts dynamically
   const subcategoriesWithCounts: SubcategoryOption[] = useMemo(() => {
@@ -87,12 +139,35 @@ const StorefrontContent: React.FC<AppProps> = ({ initialProducts }) => {
     }
   };
 
+  // If on Admin Route
+  if (currentRoute === 'admin') {
+    if (!adminUser) {
+      return (
+        <AdminLogin
+          onLoginSuccess={(user) => setAdminUser(user)}
+          onReturnToStore={() => navigateTo('store')}
+        />
+      );
+    }
+
+    return (
+      <AdminDashboard
+        admin={adminUser}
+        onLogout={() => setAdminUser(null)}
+        onReturnToStore={() => navigateTo('store')}
+        onProductCatalogMutated={loadCatalog}
+      />
+    );
+  }
+
+  // Public Storefront View
   return (
     <div className="min-h-screen bg-[#FAFAFA] text-[#111111] flex flex-col font-sans">
       <Header
         wishlistCount={wishlistCount}
         onOpenWishlist={() => setIsWishlistOpen(true)}
         onOpenSearch={() => setIsSearchOpen(true)}
+        onOpenAdmin={() => navigateTo('admin')}
         activeNav={activeNav}
         onSelectNav={handleNavSelect}
       />
